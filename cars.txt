@@ -1,0 +1,13 @@
+cars
+
+id - INT - UNSIGNED - PRIMARY KEY - NOTNULL - AUTOINCREMENT - UNIQUE
+make - VARCHAR(128) - NOTNULL
+model - VARCHAR(16) - NOTNULL
+numberplate - VARCHAR(64) - NULL - UNIQUE
+color - VARCHAR(32) - NULL
+picture - TEXT - NULL
+milage - VARCHAR(32) - NOTNULL
+fueltype - VARCHAR(32) -NOTNULL
+power - INT - UNSIGNED - NULL
+registration_date - YEAR - NOTNULL
+price - MEDIUMINT - UNSIGNED - NOTNULL
